@@ -1,8 +1,14 @@
+/*
+
+C√≥digo construido usando aloca√ß√£o din√¢mica e ponteiros para que os lugares comprados ou vazios pudessem ser gravados;
+Ultilizo tamb√©m Matriz e fun√ß√£o ao mesmo tempo;
+
+Desenvolvido em 2019 por Artur
+*/
+
 #include<stdio.h>
 #include <stdlib.h>
 
-//CÛdigo construido usando alocaÁ„o din‚mica e ponteiros para que os lugares comprados ou vazios pudessem ser gravados;
-//Ultilizo tambÈm Matriz e funÁ„o ao mesmo tempo;
 
 int escolherLugar(), MapaDeAssentos(int (*aCorredor)[], int (*aJanela)[]);
 int Janela(int (*aJanela)[]), Corredor(int (*aCorredor)[]);
